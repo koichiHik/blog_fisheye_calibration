@@ -1,0 +1,15 @@
+
+-calib_picture_dir_path=./data/front
+
+-camera_name=insta_front
+#-camera_name=insta_back
+
+-lens_model=FISHEYE
+#-lens_model=PINHOLE
+-board_width=7
+-board_height=10
+-square_size=0.0325
+-aspect_ratio=1.0
+
+-show_undistorted_image=true
+-resize_factor_to_show=0.5

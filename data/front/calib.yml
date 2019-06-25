@@ -1,0 +1,16 @@
+image_width: 3040
+distortion_model: FISHEYE
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [0.05483685, -0.02810437, 0.01984883, -0.006756485]
+image_height: 3040
+camera_name: insta_front
+new_camera_matrix:
+  rows: 3
+  cols: 3
+  data: [851.3035, 0, 1528.776, 0, 851.4897, 1513.984, 0, 0, 1]
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [851.3035, 0, 1528.776, 0, 851.4897, 1513.984, 0, 0, 1]

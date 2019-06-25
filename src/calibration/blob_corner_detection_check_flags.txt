@@ -1,0 +1,34 @@
+
+--calib_picture_dir_path=./data/front/
+
+--file_viewer=true
+--show_results=false
+--save_results=false
+
+
+# CIRCLES_GRID or CHECKER
+--pattern=CHECKER
+
+--resize_factor=1.0
+--checker_pattern_width=7
+--checker_pattern_height=10
+
+--thresholdStep=10
+--minThreshold=70
+--maxThreshold=220
+--minRepeatability=2
+--minDistBetweenBlobs=10
+--filterByColor=true
+--blobColor=0
+--filterByArea=true
+--minArea=1000
+--maxArea=100000
+--filterByCircularity=false
+--minCircularity=0.01
+# --maxCircularity=3.40282e+38
+--filterByInertia=true
+--minInertiaRatio=0.1
+# --maxInertiaRatio=3.40282e+38
+--filterByConvexity=true
+--minConvexity=0.95
+# --maxConvexity=3.40282e+38
