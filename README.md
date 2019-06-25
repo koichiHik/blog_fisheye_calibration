@@ -21,8 +21,8 @@ Eigen3
 sh build.sh
 
 #### Run command
-1. Checking detected corner.
+##### 1. Checking detected corner.
 ./build/src/calibration/blob_corner_detection_check --flagfile ./src/calibration/blob_corner_detection_check_flags.txt
 
-2. Run calibration.
+##### 2. Run calibration.
 ./build/src/calibration/calibration --flagfile ./src/calibration/calibration_flags.txt
